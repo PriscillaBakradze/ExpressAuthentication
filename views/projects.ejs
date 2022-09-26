@@ -1,0 +1,42 @@
+<!-- 
+  File Name: projects.ejs
+  Student Name: Priscilla Bakradze
+  Student ID: 301229445
+  Date: September 26, 2022
+-->   
+
+<%- include('partials/header'); %>
+
+<%- include('partials/nav'); %>
+
+<!-- Projects Section -->
+<section class="projects">
+    <h1 class="projects-title"><%= title %></h1><br>
+    <div class="proj-container">
+        <div class="box box-one">
+            <div class="inner">
+                <h2>Weather Forecast</h2>
+                <a href="https://priscillabakradze.github.io/WeatherForecast/" target="_blank"><button type="button">View Project</button></a>
+            </div>
+        </div>   
+        <div class="box box-two">
+            <div class="inner">
+                <h2>Calculator</h2>
+                <a href="https://priscillabakradze.github.io/Calculator/" target="_blank"><button type="button">View Project</button></a>
+            </div>
+        </div>  
+        <div class="box box-three">
+            <div class="inner">
+                <h2>Typing Test</h2>
+                <a href="https://priscillabakradze.github.io/TypingTest/" target="_blank"><button type="button">View Project</button></a>
+            </div>
+        </div>
+        <p class="project-paragraph">I worked on this project during the summer. I used the API for displaying temperatures of every city in the world.</p>
+        <p class="project-paragraph">This is one application that we all use in our day to day lives. Performs all the basic arithmetic operations on numbers.</p>  
+        <p class="project-paragraph">This project tests your typing skills and tells you how many words you get incorrect and how many you can type in 60 seconds.</p>
+    </div>        
+</section>
+
+<%- include('partials/footer'); %>
+
+<%- include('partials/bottom'); %>

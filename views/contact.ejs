@@ -1,0 +1,41 @@
+<!-- 
+  File Name: contact.ejs
+  Student Name: Priscilla Bakradze
+  Student ID: 301229445
+  Date: September 26, 2022
+-->   
+
+<%- include('partials/header'); %>
+
+<%- include('partials/nav'); %>
+
+<!-- Contact Section -->
+<section id="contact">
+    <form action="mailto:priscillabakradze@gmail.com">
+        <h1 class="get-in-touch">Get in Touch</h1><br>
+        <label for="name" class="required-field">Full Name</label>
+        <input type="text" id="full-name" required>
+        <div class="icons">
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <label for="email" class="required-field">E-mail</label>
+        <input type="text" id="e-mail" required>
+        <div class="icons">
+            <i class="fa fa-envelope icon"></i>
+        </div>
+        <label for="number" class="required-field">Contact Number</label>
+        <input type="number" id="number" required>
+        <div class="icons">
+            <i class="fa-solid fa-phone"></i>
+        </div>
+        <label for="message" class="required-field">Message</label>
+        <textarea id="message" rows="6" required></textarea>
+        <div>
+            <input type="submit" value="Send" class="button-send" id="button">
+        </div>
+    </form>
+</section> 
+
+<%- include('partials/footer'); %>
+
+<%- include('partials/bottom'); %>

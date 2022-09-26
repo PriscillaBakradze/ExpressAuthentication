@@ -1,0 +1,30 @@
+<!-- 
+  File Name: about.ejs
+  Student Name: Priscilla Bakradze
+  Student ID: 301229445
+  Date: September 26, 2022
+-->   
+
+<%- include('partials/header'); %>
+
+<%- include('partials/nav'); %>
+
+<!-- About Section -->
+<main>
+    <div class="about">
+        <h1 class="about-title"><%= title %></h1><br>
+        <img class="about-image" src="/Assets/images/Pris.png"><br><br>
+        <p class="about-p" style="font-weight: 700">My name is Priscilla Bakradze. I am a student - studying Software Engineering Technology at Centennial College.</p><br>
+        <div>
+            <p class="about-p">I enjoy learning new technologies and engaging in technical problem-solving to achieve desired end results. 
+                I look forward to putting my education and acquired skills to use.</p><br>
+        </div>
+        <div>
+            <p class="about-p">For more information, please review my <a class="resume" href="/Assets/Priscilla_Bakradze_Resume.pdf" target="_blank"><em><strong>résumé </strong></em></a>where you will find examples of my work experience and a detailed overview of my relevant professional skills.</p>
+        </div>
+    </div>
+</main>
+
+<%- include('partials/footer'); %>
+
+<%- include('partials/bottom'); %>
