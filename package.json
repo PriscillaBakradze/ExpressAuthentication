@@ -6,8 +6,8 @@
     "start": "node ./server.js"
   },
   "engines": {
-    "node": "^10.00.0",
-    "npm": "^6.0.0"
+    "node": "^16.17.1",
+    "npm": "^8.15.0"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
