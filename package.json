@@ -1,5 +1,5 @@
 {
-  "name": "express-authentication",
+  "name": "auth",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -27,14 +27,14 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PriscillaBakradze/PriscillaExpressAuthentication.git"
+    "url": "git+https://github.com/PriscillaBakradze/ExpressAuthentication.git"
   },
   "author": "Priscilla Bakradze",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PriscillaBakradze/PriscillaExpressAuthentication/issues"
+    "url": "https://github.com/PriscillaBakradze/ExpressAuthentication/issues"
   },
-  "homepage": "https://github.com/PriscillaBakradze/PriscillaExpressAuthentication#readme",
+  "homepage": "https://github.com/PriscillaBakradze/ExpressAuthentication#readme",
   "devDependencies": {
     "@types/connect-flash": "^0.0.37",
     "@types/express": "^4.17.14",
