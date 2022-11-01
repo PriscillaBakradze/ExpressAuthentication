@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    text-decoration: none !important;
     list-style: none;
 }
 
@@ -371,7 +371,7 @@ h2 {
 }
 
 .inner button {
-    margin-top: 220px;
+    margin-top: 200px;
     margin-right: 130px;
     background: #F5F5DD;
     border: 2px solid #F5F5DD;
@@ -397,7 +397,7 @@ h2 {
 
 form {
     width: 520px;
-    height: 650px;
+    height: 720px;
     background: #AE6E4E;
     margin: 17vh auto 0 auto;
     padding: 40px;
@@ -409,7 +409,7 @@ form {
 label {
     color: #F5F5DD;
     display: block;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 textarea {
@@ -418,7 +418,7 @@ textarea {
 }
 
 input, textarea {
-    padding: 10px;
+    padding: 7px;
     box-sizing: border-box;
 }
 
@@ -441,6 +441,10 @@ input[type=email]{
 }
 
 input[type=number]{
+    padding-left: 50px;
+}
+
+input[type=password]{
     padding-left: 50px;
 }
 
@@ -628,6 +632,35 @@ form .button-send {
     color: #F5F5DD;
 }
 
+.dark th, .dark td {
+    color: #F5F5DD !important;
+}
+
+.dark .add-option {
+    color: #F5F5DD;
+}
+
+.dark .button{
+    background: linear-gradient(to right, #AE6E4E, #CC9767);
+    color: #F5F5DD;
+}
+
+.dark .register {
+    color: #AE6E4E;
+}
+
+.dark .register:hover {
+    color: #AE6E4E;
+}
+
+.dark .login, .dark .register-here, .dark .edit, .dark .add {
+    color: #AE6E4E;
+}
+
+.dark .register-title {
+    color: #AE6E4E;
+}
+
 /* Responsive Design */
 @media (max-width: 1500px) {
     header {
@@ -774,4 +807,97 @@ form .button-send {
         display: block;
         padding: .7rem;
     }
+}
+
+/* Login Page, Register Page, Add Contact Page, Update Contact Page, Contact List Page Section */
+.row {
+    margin-top: 200px;
+}
+
+#username, 
+#password, 
+#email,
+#displayName {
+    margin-left: 47px;
+}
+
+#nameTextField,
+#numberTextField,
+#emailTextField {
+    margin-left: 100px;
+}
+
+.login-form {
+    margin-top: 200px;
+    width: 420px;
+    height: 520px;
+}
+
+.register-form {
+    margin-top: 50px;
+    width: 435px;
+    height: 615px;
+}
+
+.edit-form {
+    height: 600px;
+}
+
+.add-form {
+    height: 580px;
+}
+
+.button {
+    background: linear-gradient(to right, #FEFCED, #F5F5DD);
+    color: #AE6E4E;
+    border-color: #F5F5DD;
+    cursor: pointer;
+}
+
+
+.button:hover {
+    background: linear-gradient(to left, #F5F5DD, #CC9767);
+    color: #AE6E4E;
+}
+
+th, td {
+    color: #AE6E4E !important;
+    font-size: 1.1rem;
+    padding: 15px;
+}
+
+th {
+    text-decoration: underline !important;
+}
+
+td {
+    text-align: center;
+}
+
+.add-option {
+    color: #AE6E4E;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.register {
+    color: #F5F5DD;
+    margin-left: 125px;
+    font-size: 1.2rem;
+    text-decoration: underline !important;
+}
+
+.register:hover{
+    color: #F5F5DD;
+}
+
+.login, .register-here, .edit, .add {
+    color: #F5F5DD;
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 70px 0;
 }

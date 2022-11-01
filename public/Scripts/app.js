@@ -72,3 +72,23 @@ window.addEventListener("load", pageSetUp, false);
 //Copyright Year
 const copyright = `<p> © ${new Date().getFullYear()} Priscilla Bakradze </p>`;
 document.getElementById("copyright-year").innerHTML = copyright;
+
+
+// Confirmation
+(function () {
+
+    function Start() {
+        let deleteBtns = document.querySelectorAll(".btn-danger");
+
+        for (button of deleteBtns) {
+            button.addEventListener('click', (event) => {
+                if(!confirm("Delete permanently?")) {
+                    event.preventDefault();
+                    window.location.assign('/contact-list');
+                }
+            });
+        }        
+    }
+    window.addEventListener("load", Start);
+})();
+
